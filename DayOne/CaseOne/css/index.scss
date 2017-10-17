@@ -1,0 +1,22 @@
+@charset 'utf-8';
+.header{
+    width: 100%;
+    height: 0.71rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1b82d1;
+    p{
+        font-size: 0.22rem;
+        color: #fff8d8;
+    }
+    input{
+        width: 3.52rem;
+        height: 0.5rem;
+        
+    }
+    img{
+        width: 0.42rem;
+        height: 0.42rem;
+    }
+}
