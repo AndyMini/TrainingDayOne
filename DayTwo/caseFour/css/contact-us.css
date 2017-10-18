@@ -1,0 +1,227 @@
+.contact-header {
+  width: 100%;
+  height: 1.03rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: .16rem;
+  padding-right: .18rem; }
+  .contact-header .logo {
+    width: 2.2rem;
+    height: .71rem;
+    margin-right: .7rem; }
+  .contact-header .header-home {
+    width: 1.6rem;
+    height: .4rem;
+    display: flex;
+    font-size: .36rem;
+    overflow: hidden;
+    color: #000;
+    margin-right: 1.58rem; }
+  .contact-header ul {
+    width: 1.26rem;
+    height: .71rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .contact-header ul li {
+      height: 100%;
+      width: .65rem;
+      font-size: .22rem;
+      color: #999;
+      display: flex;
+      flex-flow: column; }
+      .contact-header ul li p {
+        overflow: hidden;
+        width: 100%;
+        height: .24rem; }
+      .contact-header ul li img {
+        width: .45rem;
+        height: .45rem; }
+
+.map {
+  width: 100%;
+  height: 4.2rem;
+  background: gray; }
+
+.contact-localtion {
+  width: 100%;
+  height: 2.9rem;
+  box-sizing: border-box;
+  padding-top: .36rem;
+  padding-bottom: .45rem;
+  padding-left: .4rem;
+  padding-right: .9rem;
+  display: flex;
+  justify-content: space-between; }
+  .contact-localtion .contact-localtion-a {
+    display: block;
+    width: 3.27rem;
+    height: 2.07rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between; }
+    .contact-localtion .contact-localtion-a img {
+      width: 1.2rem;
+      height: 1.16rem; }
+    .contact-localtion .contact-localtion-a .contact-des {
+      width: 100%;
+      height: .61rem;
+      font-size: .28rem;
+      color: #333;
+      display: flex;
+      flex-flow: wrap;
+      align-content: space-between;
+      overflow: hidden; }
+  .contact-localtion .contact-localtion-b {
+    display: block;
+    width: 2.07rem;
+    height: 2.07rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between; }
+    .contact-localtion .contact-localtion-b img {
+      width: 1.2rem;
+      height: 1.16rem; }
+    .contact-localtion .contact-localtion-b p {
+      width: 100%;
+      height: .61rem;
+      display: flex;
+      flex-flow: wrap;
+      align-content: space-between;
+      overflow: hidden;
+      font-size: .28rem;
+      color: #333; }
+
+.contact-us-planar {
+  width: 100%;
+  height: 3.85rem;
+  background: #f4f4f4;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding-top: .25rem;
+  padding-bottom: .45rem;
+  justify-content: space-between;
+  align-items: center; }
+  .contact-us-planar img {
+    width: 2.69rem;
+    height: 2.6rem; }
+  .contact-us-planar p {
+    width: 100%;
+    height: .25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .25rem;
+    color: #000;
+    overflow: hidden; }
+
+.sy-bottom {
+  width: 100%;
+  height: 2.44rem;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding-top: .3rem;
+  padding-left: .18rem;
+  padding-right: .18rem;
+  padding-bottom: .36rem;
+  font-size: .28rem;
+  color: #333;
+  text-indent: 2em;
+  letter-spacing: 1.5px;
+  line-height: .45rem; }
+  .sy-bottom p {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+
+.sy-bottom-nav {
+  width: 100%;
+  height: 2.34rem;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding-top: .3rem;
+  padding-left: .53rem;
+  padding-right: .41rem;
+  position: relative;
+  border: 0; }
+  .sy-bottom-nav .top {
+    width: 100%;
+    height: .32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .sy-bottom-nav .top img {
+      width: .32rem;
+      height: .32rem; }
+    .sy-bottom-nav .top p {
+      font-size: .28rem;
+      color: #333;
+      margin-left: .13rem;
+      overflow: hidden; }
+  .sy-bottom-nav ul {
+    width: 100%;
+    height: .3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .22rem;
+    margin-bottom: .55rem; }
+    .sy-bottom-nav ul .one {
+      color: #37ca91; }
+    .sy-bottom-nav ul a {
+      display: block;
+      width: 1rem;
+      height: .3rem;
+      overflow: hidden;
+      font-size: .28rem; }
+
+.footer-img {
+  width: 100%;
+  height: .78rem;
+  position: relative;
+  border: 0; }
+  .footer-img img {
+    width: 100%;
+    height: .78rem;
+    position: absolute;
+    border: 0; }
+
+.top-back {
+  width: .94rem;
+  height: .94rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid gainsboro;
+  font-size: .28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: .21rem;
+  background: white;
+  z-index: 10000;
+  bottom: 2.5rem; }
+  .top-back .size {
+    width: .4rem;
+    height: .4rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; }
+    .top-back .size p {
+      width: .3rem;
+      height: 0;
+      border-bottom: 1px solid #000; }
+
+.sy-line {
+  width: 100%;
+  height: .18rem;
+  background: #f4f4f4;
+  border: none; }
+
+/*# sourceMappingURL=contact-us.css.map */

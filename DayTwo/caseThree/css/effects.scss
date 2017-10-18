@@ -1,0 +1,378 @@
+@charset 'utf-8';
+.effects-header {
+    width: 100%;
+    height: 1.03rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: .16rem;
+    padding-right: .18rem;
+    .logo {
+        width: 2.2rem;
+        height: .71rem;
+        margin-right: .7rem;
+    }
+    .header-home{
+        width: 1.6rem;
+        height: .4rem;
+        display: flex;
+        font-size: .36rem;
+        overflow: hidden;
+        color: #000;
+        margin-right: 1.58rem;
+    }
+    ul {
+        width: 1.26rem;
+        height: .71rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+            height: 100%;
+            width: .65rem;
+            font-size: .22rem;
+            color: #999;
+            display: flex;
+            flex-flow: column;
+            p {
+                overflow: hidden;
+                width: 100%;
+                height: .24rem;
+            }
+            img {
+                width: .45rem;
+                height: .45rem;
+            }
+        }
+    }
+}
+.effects-nav{
+    width: 100%;
+    height: 1rem;
+    border-top: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    .effects-search{
+        width: 1.55rem;
+        height: .54rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        
+    }
+    .effects-select{
+        width: 1.95rem;
+        height: .54rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        border-right: 1px solid #F4F4F4;
+    
+    select{
+        width: 1.23rem;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .36rem;
+        outline: none;
+        border: none;
+    }
+    
+    }
+}
+.effects-content{
+    width: 100%;
+    height: 36.84rem;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    box-sizing: border-box;
+    padding-bottom: .36rem;
+    padding-top: .22rem;
+    padding-left: .18rem;
+    padding-right: .19rem;
+    ul{
+        width: 3.5rem;
+        height: 3.4rem;
+        background: white;
+        .effects-content-img{
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            img{
+               width: 100%;
+               height: 2.35rem; 
+            }
+            .effects-content-title{
+                width: 100%;
+                height: .26rem;
+                font-size: .26rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden; 
+                margin-top: .2rem;
+            }
+            .effects-content-des{
+                width: 100%;
+                height: .2rem;
+                font-size: .2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden; 
+                margin-top: .2rem;
+            }
+        }
+    }
+    .effects-pagination{
+        width: 100%;
+        height: .82rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .effects-pagination-prev{
+            display: block;
+            width: 2.34rem;
+            height: 100%;
+            background: #39c893;
+            font-size: .36rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            color: white;
+        }
+        .effects-page{
+            width: 2.36rem;
+            height: 100%;
+            font-size: .36rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border: 1px solid #EAEAEA;
+        }
+        .effects-pagination-next{
+            display: block;
+            width: 2.34rem;
+            height: 100%;
+            background: #39c893;
+            font-size: .36rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            color: white;
+        }
+    }
+}
+
+.sy-bottom{
+   width: 100%;
+    height: 2.44rem;
+    display: flex;
+    flex-flow: column;
+    box-sizing: border-box;
+    padding-top: .3rem;
+    padding-left: .18rem;
+    padding-right: .18rem;
+    padding-bottom: .36rem;
+    font-size: .28rem;
+    color: #333;
+    text-indent: 2em;
+    
+    letter-spacing: 1.5px;
+    line-height: .45rem;
+    p{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        
+    }
+}
+.sy-bottom-nav{
+    width: 100%;
+    height: 2.34rem;
+    display: flex;
+    flex-flow: column;
+    box-sizing: border-box;
+    padding-top: .3rem;
+    padding-left: .53rem;
+    padding-right: .41rem;
+    position: relative;
+    border: 0;
+    .top{
+        width: 100%;
+        height: .32rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img{
+            width: .32rem;
+            height: .32rem;
+        }
+        p{
+            font-size: .28rem;
+            color: #333;
+            margin-left: .13rem;
+            overflow: hidden;
+        }
+    }
+    ul{
+        width: 100%;
+        height: .3rem;
+        display: flex;
+        justify-content: space-between;
+        margin-top: .22rem;
+        margin-bottom: .55rem;
+        .one{
+            color: #37ca91;
+        }
+        a{
+        display: block;
+        width: 1rem;
+        height: .3rem;
+        overflow: hidden;
+        font-size: .28rem;
+    }
+        
+    }
+    .footer{
+    width: 7.5rem;
+    margin-left: -0.53rem;
+    height: 1.05rem;
+    position: absolute;
+    bottom: 0;
+    background: #000;
+    opacity: .8;
+    box-sizing: border-box;
+    padding-right: .38rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    .wz{
+        width: 3.25rem;
+        height: .77rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        .top{
+            width: 100%;
+            height: .32rem;
+            color: #eed215;
+            font-size: .32rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            overflow: hidden;
+        }
+        .bottom{
+             width: 100%;
+            height: .32rem;
+            font-size: .32rem;
+            color: white;
+            overflow: hidden;
+        }
+    }
+    img{
+        width: .86rem;
+        height: .86rem;
+    }
+    ul{
+        width: .5rem;
+        height: 100%;
+        margin-right: .31rem;
+        position: relative;
+        
+        li{
+           width: 1rem;
+           height: 1rem;
+           border-radius: .5rem;
+           background: #62d4a9;
+           position: absolute;
+           top: -0.3rem;
+           left: -0.47rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            color: white;
+            box-sizing: border-box;
+            padding-right: .2rem;
+            padding-bottom: .2rem;
+            font-size: .23rem;
+        }
+    }
+    button{
+        width: 1.75rem;
+        height: .5rem;
+        background: #FEB605;
+        color: white;
+        border-radius: .5rem;
+        text-align: center;
+        line-height: .5rem;
+        overflow: hidden;
+        border: 0;
+        outline: none;
+        font-size: .24rem;
+        margin-left: .4rem;
+    }
+}
+    
+}
+
+.footer-img{
+     width: 100%;
+    height: .78rem; 
+    position: relative;
+    border: 0;
+    img{
+       width: 100%;
+    height: .78rem; 
+    position: absolute;
+    border: 0;
+    }
+}
+.top-back{
+    width: .94rem;
+    height: .94rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    font-size: .28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: .21rem;
+    background: white;
+    z-index: 10000;
+    bottom: 2.5rem;
+    .size{
+        width: .4rem;
+        height: .4rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            width: .3rem;
+            height: 0;
+            border-bottom: 1px solid #000;
+            
+        }
+    }
+}
+.sy-line {
+    width: 100%;
+    height: .18rem;
+    background: #f4f4f4;
+    border: none;
+}
