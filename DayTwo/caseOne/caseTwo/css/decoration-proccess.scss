@@ -1,0 +1,39 @@
+@charset 'utf-8';
+.decoration-header {
+    width: 100%;
+    height: 1.03rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: .16rem;
+    padding-right: .18rem;
+    .logo {
+        width: 2.2rem;
+        height: .71rem;
+    }
+    ul {
+        width: 1.26rem;
+        height: .71rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+            height: 100%;
+            width: .65rem;
+            font-size: .22rem;
+            color: #999;
+            display: flex;
+            flex-flow: column;
+            p {
+                overflow: hidden;
+                width: 100%;
+                height: .24rem;
+            }
+            img {
+                width: .45rem;
+                height: .45rem;
+            }
+        }
+    }
+}
