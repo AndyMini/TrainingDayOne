@@ -1,0 +1,448 @@
+.decoration-header {
+  width: 100%;
+  height: 1.03rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: .16rem;
+  padding-right: .18rem;
+  position: relative; }
+  .decoration-header .logo {
+    width: 2.2rem;
+    height: .71rem;
+    margin-right: .7rem;
+    position: relative; }
+    .decoration-header .logo img {
+      width: 2.2rem;
+      height: .71rem;
+      position: absolute; }
+  .decoration-header .header-home {
+    width: 1.9rem;
+    height: .36rem;
+    font-size: .36rem;
+    overflow: hidden;
+    color: #000;
+    margin-right: .93rem; }
+  .decoration-header ul, .decoration-header .caseFifteen-a-provide .about-line ul img, .caseFifteen-a-provide .about-line ul .decoration-header img,
+  .decoration-header .caseFifteen-a-price .about-line ul img,
+  .caseFifteen-a-price .about-line ul .decoration-header img {
+    width: 1.22rem;
+    height: .72rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: .18rem; }
+    .decoration-header ul a, .decoration-header .caseFifteen-a-provide .about-line ul img a, .caseFifteen-a-provide .about-line ul .decoration-header img a,
+    .decoration-header .caseFifteen-a-price .about-line ul img a,
+    .caseFifteen-a-price .about-line ul .decoration-header img a {
+      display: block;
+      width: .44rem;
+      height: 100%; }
+      .decoration-header ul a li, .decoration-header .caseFifteen-a-provide .about-line ul img a li, .caseFifteen-a-provide .about-line ul .decoration-header img a li,
+      .decoration-header .caseFifteen-a-price .about-line ul img a li,
+      .caseFifteen-a-price .about-line ul .decoration-header img a li {
+        width: 100%;
+        height: .72rem;
+        color: #999;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between; }
+        .decoration-header ul a li p, .decoration-header .caseFifteen-a-provide .about-line ul img a li p, .caseFifteen-a-provide .about-line ul .decoration-header img a li p,
+        .decoration-header .caseFifteen-a-price .about-line ul img a li p,
+        .caseFifteen-a-price .about-line ul .decoration-header img a li p {
+          overflow: hidden;
+          width: 100%;
+          height: .22rem;
+          font-size: .22rem;
+          -webkit-text-size-adjust: none !important; }
+        .decoration-header ul a li img, .decoration-header .caseFifteen-a-provide .about-line ul img a li img, .caseFifteen-a-provide .about-line ul .decoration-header img a li img,
+        .decoration-header .caseFifteen-a-price .about-line ul img a li img,
+        .caseFifteen-a-price .about-line ul .decoration-header img a li img {
+          width: .42rem;
+          height: .42rem; }
+
+.caseFifteen-free, .caseFifteen-free img {
+  display: inline-block;
+  width: 100%;
+  height: 2.5rem; }
+
+.caseFifteen-a-price {
+  height: 10.84rem;
+  align-items: center; }
+  .caseFifteen-a-price .form-top {
+    width: 5.83rem !important;
+    height: 5.24rem;
+    box-sizing: border-box;
+    padding-bottom: .36rem;
+    display: flex;
+    flex-flow: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    position: relative; }
+    .caseFifteen-a-price .form-top span {
+      position: absolute;
+      font-size: .3rem;
+      top: .22rem;
+      right: .3rem;
+      color: #000; }
+    .caseFifteen-a-price .form-top .field {
+      width: 100%;
+      height: .65rem;
+      font-size: .26rem;
+      border-radius: 5px;
+      border: 1px solid #d7d7d7;
+      box-sizing: border-box;
+      padding-left: .3rem;
+      outline: none; }
+      .caseFifteen-a-price .form-top .field::-webkit-input-placeholder {
+        font-size: .26rem;
+        color: #c9c9c9;
+        line-height: .65rem; }
+    .caseFifteen-a-price .form-top .now {
+      width: 100%;
+      height: .65rem;
+      font-size: .26rem;
+      color: #000;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid #d7d7d7; }
+    .caseFifteen-a-price .form-top .er {
+      width: 2.8rem;
+      height: .65rem;
+      font-size: .26rem;
+      color: #000;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid #d7d7d7; }
+    .caseFifteen-a-price .form-top .san {
+      width: 1.85rem;
+      height: .65rem;
+      font-size: .26rem;
+      color: #000;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid #d7d7d7; }
+    .caseFifteen-a-price .form-top .sign-in {
+      width: 100%;
+      height: .65rem;
+      font-size: .36rem;
+      color: white;
+      outline: none;
+      background: #feb605;
+      border-radius: 5px;
+      border: none;
+      text-align: center;
+      line-height: .65rem;
+      overflow: hidden;
+      white-space: nowrap; }
+  .caseFifteen-a-price .caseFifteen-decorationPrice {
+    position: relative;
+    width: 100%;
+    height: 3.82rem;
+    margin-top: .13rem;
+    box-sizing: border-box;
+    padding-top: .63rem;
+    padding-bottom: .25rem;
+    border: 1px dotted #67d7ae;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff; }
+    .caseFifteen-a-price .caseFifteen-decorationPrice .caseFifteen-decorationPrice-title {
+      background: white;
+      z-index: 100;
+      width: 1.97rem;
+      height: .35rem;
+      font-size: .34rem;
+      text-align: center;
+      line-height: .35rem;
+      color: #000;
+      position: absolute;
+      top: -0.17rem;
+      left: 2.56rem; }
+    .caseFifteen-a-price .caseFifteen-decorationPrice button {
+      width: 5.85rem;
+      height: .7rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: .26rem;
+      border: 1px solid #67D7AE;
+      outline: none;
+      color: #67d7ae;
+      background: #ffffff;
+      border-radius: 5px;
+      overflow: hidden;
+      white-space: nowrap; }
+    .caseFifteen-a-price .caseFifteen-decorationPrice .caseFifteen-decorationPrice-top {
+      margin-bottom: .19rem; }
+      .caseFifteen-a-price .caseFifteen-decorationPrice .caseFifteen-decorationPrice-top span {
+        color: #fd9496; }
+    .caseFifteen-a-price .caseFifteen-decorationPrice .caseFifteen-decorationPrice-middle {
+      color: #000 !important; }
+    .caseFifteen-a-price .caseFifteen-decorationPrice .caseFifteen-decorationPrice-top,
+    .caseFifteen-a-price .caseFifteen-decorationPrice .caseFifteen-decorationPrice-bottom,
+    .caseFifteen-a-price .caseFifteen-decorationPrice .caseFifteen-decorationPrice-middle {
+      width: 100%;
+      height: .26rem;
+      font-size: .25rem;
+      color: #8a8a8a;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .caseFifteen-a-price .caseFifteen-decorationPrice .caseFifteen-decorationPrice-top .price,
+      .caseFifteen-a-price .caseFifteen-decorationPrice .caseFifteen-decorationPrice-bottom .price,
+      .caseFifteen-a-price .caseFifteen-decorationPrice .caseFifteen-decorationPrice-middle .price {
+        color: #ffb505; }
+
+.caseFifteen-a-provide {
+  height: 7.3rem; }
+
+.caseFifteen-a-provide,
+.caseFifteen-a-price {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  padding-top: .17rem;
+  padding-left: .2rem;
+  padding-right: .2rem;
+  padding-bottom: .35rem; }
+  .caseFifteen-a-provide .caseFifteen-a-provide-title,
+  .caseFifteen-a-price .caseFifteen-a-provide-title {
+    width: 100%;
+    height: .96rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: .36rem; }
+  .caseFifteen-a-provide .about-line,
+  .caseFifteen-a-price .about-line {
+    width: 100%;
+    height: .25rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .36rem;
+    align-items: center; }
+    .caseFifteen-a-provide .about-line p,
+    .caseFifteen-a-price .about-line p {
+      height: 0;
+      border: 1px solid gainsboro;
+      width: 2.95rem; }
+    .caseFifteen-a-provide .about-line ul, .caseFifteen-a-provide .about-line ul img,
+    .caseFifteen-a-price .about-line ul,
+    .caseFifteen-a-price .about-line ul img {
+      width: .77rem;
+      height: 100%;
+      position: relative; }
+      .caseFifteen-a-provide .about-line ul img,
+      .caseFifteen-a-price .about-line ul img {
+        position: absolute; }
+  .caseFifteen-a-provide .caseFifteen-nav-b,
+  .caseFifteen-a-price .caseFifteen-nav-b {
+    height: 2.81rem; }
+    .caseFifteen-a-provide .caseFifteen-nav-b li,
+    .caseFifteen-a-price .caseFifteen-nav-b li {
+      box-sizing: border-box;
+      padding-top: .3rem; }
+  .caseFifteen-a-provide .caseFifteen-nav-a,
+  .caseFifteen-a-price .caseFifteen-nav-a {
+    height: 2.56rem; }
+  .caseFifteen-a-provide .caseFifteen-nav-a,
+  .caseFifteen-a-provide .caseFifteen-nav-b,
+  .caseFifteen-a-price .caseFifteen-nav-a,
+  .caseFifteen-a-price .caseFifteen-nav-b {
+    width: 100%;
+    display: flex; }
+    .caseFifteen-a-provide .caseFifteen-nav-a a,
+    .caseFifteen-a-provide .caseFifteen-nav-b a,
+    .caseFifteen-a-price .caseFifteen-nav-a a,
+    .caseFifteen-a-price .caseFifteen-nav-b a {
+      display: block;
+      width: 2.4rem;
+      border-bottom: 1px solid #EAEAEA; }
+      .caseFifteen-a-provide .caseFifteen-nav-a a li,
+      .caseFifteen-a-provide .caseFifteen-nav-b a li,
+      .caseFifteen-a-price .caseFifteen-nav-a a li,
+      .caseFifteen-a-price .caseFifteen-nav-b a li {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center; }
+        .caseFifteen-a-provide .caseFifteen-nav-a a li .img,
+        .caseFifteen-a-provide .caseFifteen-nav-b a li .img,
+        .caseFifteen-a-price .caseFifteen-nav-a a li .img,
+        .caseFifteen-a-price .caseFifteen-nav-b a li .img {
+          width: 100%;
+          height: 1rem;
+          display: flex;
+          justify-content: center; }
+          .caseFifteen-a-provide .caseFifteen-nav-a a li .img img,
+          .caseFifteen-a-provide .caseFifteen-nav-b a li .img img,
+          .caseFifteen-a-price .caseFifteen-nav-a a li .img img,
+          .caseFifteen-a-price .caseFifteen-nav-b a li .img img {
+            width: 1rem;
+            height: 1rem; }
+        .caseFifteen-a-provide .caseFifteen-nav-a a li .text,
+        .caseFifteen-a-provide .caseFifteen-nav-b a li .text,
+        .caseFifteen-a-price .caseFifteen-nav-a a li .text,
+        .caseFifteen-a-price .caseFifteen-nav-b a li .text {
+          width: 100%;
+          height: 1.26rem;
+          box-sizing: border-box;
+          padding-bottom: .28rem;
+          display: flex;
+          flex-flow: column;
+          justify-content: space-between;
+          align-items: center; }
+          .caseFifteen-a-provide .caseFifteen-nav-a a li .text .text-top,
+          .caseFifteen-a-provide .caseFifteen-nav-b a li .text .text-top,
+          .caseFifteen-a-price .caseFifteen-nav-a a li .text .text-top,
+          .caseFifteen-a-price .caseFifteen-nav-b a li .text .text-top {
+            width: 100%;
+            height: .28rem;
+            font-size: .28rem;
+            color: #000;
+            text-align: center;
+            line-height: .28rem;
+            overflow: hidden;
+            letter-spacing: 2.5px; }
+          .caseFifteen-a-provide .caseFifteen-nav-a a li .text .text-bottom,
+          .caseFifteen-a-provide .caseFifteen-nav-b a li .text .text-bottom,
+          .caseFifteen-a-price .caseFifteen-nav-a a li .text .text-bottom,
+          .caseFifteen-a-price .caseFifteen-nav-b a li .text .text-bottom {
+            width: 2.3rem;
+            height: .58rem;
+            font-size: .22rem;
+            color: #666666;
+            text-align: center;
+            line-height: .3rem;
+            overflow: hidden;
+            -webkit-line-clamp: 2;
+            display: -webkit-box;
+            -webkit-box-orient: vertical; }
+    .caseFifteen-a-provide .caseFifteen-nav-a .middle,
+    .caseFifteen-a-provide .caseFifteen-nav-b .middle,
+    .caseFifteen-a-price .caseFifteen-nav-a .middle,
+    .caseFifteen-a-price .caseFifteen-nav-b .middle {
+      border-left: 1px solid #EAEAEA;
+      border-right: 1px solid #EAEAEA; }
+
+.sy-line {
+  width: 100%;
+  height: .18rem;
+  background: #f4f4f4;
+  border: none; }
+
+.sy-bottom {
+  width: 100%;
+  height: 2.44rem;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding-top: .3rem;
+  padding-left: .18rem;
+  padding-right: .18rem;
+  padding-bottom: .36rem;
+  font-size: .28rem;
+  color: #333;
+  text-indent: 2em;
+  letter-spacing: 1.5px;
+  line-height: .45rem; }
+  .sy-bottom p {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+
+.sy-bottom-nav {
+  width: 100%;
+  height: 2.34rem;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding-top: .3rem;
+  padding-left: .53rem;
+  padding-right: .41rem;
+  position: relative;
+  border: 0; }
+  .sy-bottom-nav .top {
+    width: 100%;
+    height: .32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .sy-bottom-nav .top img {
+      width: .32rem;
+      height: .32rem; }
+    .sy-bottom-nav .top p {
+      font-size: .28rem;
+      color: #333;
+      margin-left: .13rem;
+      overflow: hidden; }
+  .sy-bottom-nav ul, .sy-bottom-nav .caseFifteen-a-provide .about-line ul img, .caseFifteen-a-provide .about-line ul .sy-bottom-nav img,
+  .sy-bottom-nav .caseFifteen-a-price .about-line ul img,
+  .caseFifteen-a-price .about-line ul .sy-bottom-nav img {
+    width: 100%;
+    height: .3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .22rem;
+    margin-bottom: .55rem; }
+    .sy-bottom-nav ul .one, .sy-bottom-nav .caseFifteen-a-provide .about-line ul img .one, .caseFifteen-a-provide .about-line ul .sy-bottom-nav img .one,
+    .sy-bottom-nav .caseFifteen-a-price .about-line ul img .one,
+    .caseFifteen-a-price .about-line ul .sy-bottom-nav img .one {
+      color: #37ca91; }
+    .sy-bottom-nav ul a, .sy-bottom-nav .caseFifteen-a-provide .about-line ul img a, .caseFifteen-a-provide .about-line ul .sy-bottom-nav img a,
+    .sy-bottom-nav .caseFifteen-a-price .about-line ul img a,
+    .caseFifteen-a-price .about-line ul .sy-bottom-nav img a {
+      display: block;
+      width: 1rem;
+      height: .3rem;
+      overflow: hidden;
+      font-size: .28rem; }
+
+.footer-img {
+  width: 100%;
+  height: .78rem;
+  position: relative;
+  border: 0; }
+  .footer-img img {
+    width: 100%;
+    height: .78rem;
+    position: absolute;
+    border: 0; }
+
+.top-back {
+  width: .94rem;
+  height: .94rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid gainsboro;
+  font-size: .28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: .21rem;
+  background: white;
+  z-index: 10000;
+  bottom: 2.5rem; }
+  .top-back .size {
+    width: .4rem;
+    height: .4rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; }
+    .top-back .size p {
+      width: .3rem;
+      height: 0;
+      border-bottom: 1px solid #000; }
+
+/*# sourceMappingURL=caseFifteen.css.map */

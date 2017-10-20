@@ -1,0 +1,258 @@
+.decoration-header {
+  width: 100%;
+  height: 1.03rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: .16rem;
+  padding-right: .18rem; }
+  .decoration-header .logo {
+    width: 2.2rem;
+    height: .71rem;
+    margin-right: .7rem; }
+  .decoration-header .header-home {
+    width: 1.6rem;
+    height: .4rem;
+    display: flex;
+    font-size: .36rem;
+    overflow: hidden;
+    color: #000;
+    margin-right: 1.58rem; }
+  .decoration-header ul {
+    width: 1.26rem;
+    height: .71rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .decoration-header ul li {
+      height: 100%;
+      width: .65rem;
+      font-size: .22rem;
+      color: #999;
+      display: flex;
+      flex-flow: column; }
+      .decoration-header ul li p {
+        overflow: hidden;
+        width: 100%;
+        height: .24rem; }
+      .decoration-header ul li img {
+        width: .45rem;
+        height: .45rem; }
+
+.caseEleven-content {
+  width: 100%;
+  height: 28rem;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 .18rem;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center; }
+  .caseEleven-content a {
+    display: block;
+    width: 100%;
+    height: 2.65rem; }
+    .caseEleven-content a ul {
+      width: 100%;
+      height: 2.65rem;
+      box-sizing: border-box;
+      border-bottom: 2px solid #f6f6f6;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .caseEleven-content a ul img {
+        width: 2.8rem;
+        height: 1.95rem;
+        margin-right: .2rem; }
+      .caseEleven-content a ul li {
+        width: 1%;
+        flex-grow: 1;
+        height: 1.95rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between; }
+        .caseEleven-content a ul li .title {
+          height: .36rem;
+          width: 100%;
+          font-size: .36rem;
+          color: #000;
+          overflow: hidden; }
+        .caseEleven-content a ul li .angle {
+          width: 100%;
+          display: flex;
+          align-items: center; }
+          .caseEleven-content a ul li .angle span {
+            font-size: .2rem;
+            padding: .07rem .1rem;
+            color: white;
+            background: #38ca94;
+            border-radius: 5px;
+            letter-spacing: 2px;
+            margin-right: .36rem; }
+          .caseEleven-content a ul li .angle img {
+            width: .46rem;
+            height: .46rem; }
+        .caseEleven-content a ul li .room-size {
+          width: 100%;
+          font-size: .24rem;
+          color: #b1b1b1;
+          display: flex;
+          justify-content: space-between; }
+          .caseEleven-content a ul li .room-size p {
+            display: flex;
+            align-items: center; }
+          .caseEleven-content a ul li .room-size .localtion-img {
+            width: 1.3rem;
+            height: .3rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center; }
+            .caseEleven-content a ul li .room-size .localtion-img img {
+              width: .22rem;
+              height: .3rem;
+              margin-right: .15rem; }
+  .caseEleven-content .effects-pagination {
+    width: 100%;
+    height: .82rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .34rem; }
+    .caseEleven-content .effects-pagination .effects-pagination-prev {
+      display: block;
+      width: 2.34rem;
+      height: 100%;
+      background: #39c893;
+      font-size: .36rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      color: white; }
+    .caseEleven-content .effects-pagination .effects-page {
+      width: 2.36rem;
+      height: 100%;
+      font-size: .36rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      border: 1px solid #EAEAEA; }
+    .caseEleven-content .effects-pagination .effects-pagination-next {
+      display: block;
+      width: 2.34rem;
+      height: 100%;
+      background: #39c893;
+      font-size: .36rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      color: white; }
+
+.sy-line {
+  width: 100%;
+  height: .18rem;
+  background: #f4f4f4;
+  border: none; }
+
+.sy-bottom {
+  width: 100%;
+  height: 2.44rem;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding-top: .3rem;
+  padding-left: .18rem;
+  padding-right: .18rem;
+  padding-bottom: .36rem;
+  font-size: .28rem;
+  color: #333;
+  text-indent: 2em;
+  letter-spacing: 1.5px;
+  line-height: .45rem; }
+  .sy-bottom p {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+
+.sy-bottom-nav {
+  width: 100%;
+  height: 2.34rem;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding-top: .3rem;
+  padding-left: .53rem;
+  padding-right: .41rem;
+  position: relative;
+  border: 0; }
+  .sy-bottom-nav .top {
+    width: 100%;
+    height: .32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .sy-bottom-nav .top img {
+      width: .32rem;
+      height: .32rem; }
+    .sy-bottom-nav .top p {
+      font-size: .28rem;
+      color: #333;
+      margin-left: .13rem;
+      overflow: hidden; }
+  .sy-bottom-nav ul {
+    width: 100%;
+    height: .3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .22rem;
+    margin-bottom: .55rem; }
+    .sy-bottom-nav ul .one {
+      color: #37ca91; }
+    .sy-bottom-nav ul a {
+      display: block;
+      width: 1rem;
+      height: .3rem;
+      overflow: hidden;
+      font-size: .28rem; }
+
+.footer-img {
+  width: 100%;
+  height: .78rem;
+  position: relative;
+  border: 0; }
+  .footer-img img {
+    width: 100%;
+    height: .78rem;
+    position: absolute;
+    border: 0; }
+
+.top-back {
+  width: .94rem;
+  height: .94rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid gainsboro;
+  font-size: .28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: .21rem;
+  background: white;
+  z-index: 10000;
+  bottom: 2.5rem; }
+  .top-back .size {
+    width: .4rem;
+    height: .4rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; }
+    .top-back .size p {
+      width: .3rem;
+      height: 0;
+      border-bottom: 1px solid #000; }
+
+/*# sourceMappingURL=caseEleven.css.map */

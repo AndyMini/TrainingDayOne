@@ -1,0 +1,455 @@
+.decoration-header {
+  width: 100%;
+  height: 1.03rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: .16rem;
+  padding-right: .18rem;
+  position: relative; }
+  .decoration-header .logo {
+    width: 2.2rem;
+    height: .71rem;
+    margin-right: .7rem;
+    position: relative; }
+    .decoration-header .logo img {
+      width: 2.2rem;
+      height: .71rem;
+      position: absolute; }
+  .decoration-header .header-home {
+    width: 1.9rem;
+    height: .36rem;
+    font-size: .36rem;
+    overflow: hidden;
+    color: #000;
+    margin-right: .93rem; }
+  .decoration-header ul {
+    width: 1.22rem;
+    height: .72rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: .18rem; }
+    .decoration-header ul a {
+      display: block;
+      width: .44rem;
+      height: 100%; }
+      .decoration-header ul a li {
+        width: 100%;
+        height: .72rem;
+        color: #999;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between; }
+        .decoration-header ul a li p {
+          overflow: hidden;
+          width: 100%;
+          height: .22rem;
+          font-size: .22rem;
+          -webkit-text-size-adjust: none !important; }
+        .decoration-header ul a li img {
+          width: .42rem;
+          height: .42rem; }
+
+.caseNine-designer-nav {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: .15rem;
+  border-top: 1px solid #F4F4F4; }
+  .caseNine-designer-nav ul {
+    width: 100%;
+    height: .54rem;
+    display: flex;
+    align-items: center; }
+    .caseNine-designer-nav ul li {
+      width: 1.95rem;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      border-right: 1px solid #F4F4F4; }
+      .caseNine-designer-nav ul li p {
+        font-size: .32rem;
+        color: #000;
+        overflow: hidden;
+        width: .7rem;
+        height: .35rem;
+        margin-right: .23rem; }
+      .caseNine-designer-nav ul li .caseNine-select {
+        width: .27rem;
+        height: .14rem;
+        position: relative; }
+        .caseNine-designer-nav ul li .caseNine-select img {
+          width: 100%;
+          height: 100%;
+          position: absolute; }
+    .caseNine-designer-nav ul a {
+      display: block;
+      height: 100%;
+      width: 1.53rem; }
+      .caseNine-designer-nav ul a .caseNine-search {
+        height: 100%;
+        width: 1.53rem;
+        box-sizing: border-box;
+        padding-right: .59rem;
+        display: flex;
+        justify-content: flex-end; }
+        .caseNine-designer-nav ul a .caseNine-search img {
+          width: .5rem;
+          height: .5rem; }
+
+.sy-line {
+  width: 100%;
+  height: .18rem;
+  background: #f4f4f4;
+  border: none; }
+
+.caseNine-designer-list {
+  width: 100%;
+  height: 24.5rem;
+  box-sizing: border-box;
+  padding-bottom: .33rem;
+  padding-left: .17rem;
+  padding-right: .18rem; }
+  .caseNine-designer-list .effects-pagination {
+    width: 100%;
+    height: .82rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .34rem; }
+    .caseNine-designer-list .effects-pagination .effects-pagination-prev {
+      display: block;
+      width: 2.34rem;
+      height: 100%;
+      background: #EAEAEA;
+      font-size: .36rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      color: #000; }
+    .caseNine-designer-list .effects-pagination .effects-page {
+      width: 2.36rem;
+      height: 100%;
+      font-size: .36rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      border: 1px solid #EAEAEA; }
+    .caseNine-designer-list .effects-pagination .effects-pagination-next {
+      display: block;
+      width: 2.34rem;
+      height: 100%;
+      background: #39c893;
+      font-size: .36rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      color: white; }
+  .caseNine-designer-list .list {
+    width: 100%;
+    height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #f5f5f5; }
+    .caseNine-designer-list .list .aa {
+      display: flex;
+      width: 100%;
+      height: 1.65rem;
+      display: flex; }
+      .caseNine-designer-list .list .aa .left {
+        width: 1.61rem;
+        height: 100%;
+        margin-right: .2rem; }
+        .caseNine-designer-list .list .aa .left img {
+          width: 100%;
+          height: 1.65rem; }
+      .caseNine-designer-list .list .aa .right {
+        flex-grow: 1;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        box-sizing: border-box;
+        padding-top: .17rem;
+        justify-content: space-between; }
+        .caseNine-designer-list .list .aa .right .name {
+          width: 100%;
+          height: .4rem;
+          display: flex;
+          align-items: center;
+          margin-bottom: .15rem;
+          justify-content: space-between; }
+          .caseNine-designer-list .list .aa .right .name .designer-name {
+            display: block;
+            width: 2rem;
+            display: flex;
+            align-items: center; }
+            .caseNine-designer-list .list .aa .right .name .designer-name p {
+              font-size: .36rem;
+              display: flex;
+              color: #000;
+              align-items: center;
+              margin-right: .2rem;
+              overflow: hidden; }
+            .caseNine-designer-list .list .aa .right .name .designer-name span {
+              color: white;
+              font-size: .22rem;
+              display: inline-block;
+              background: #3ac994;
+              width: .6rem;
+              height: .32rem;
+              border-radius: 5px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              overflow: hidden; }
+          .caseNine-designer-list .list .aa .right .name .rq {
+            width: 1.5rem;
+            height: .28rem;
+            font-size: .28rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end; }
+            .caseNine-designer-list .list .aa .right .name .rq span {
+              color: #ffb92a;
+              display: inline-block;
+              flex-grow: 1;
+              width: 1%;
+              overflow: hidden;
+              display: flex;
+              justify-content: flex-end;
+              align-items: center; }
+            .caseNine-designer-list .list .aa .right .name .rq p {
+              color: #999;
+              width: .6rem;
+              height: 100%;
+              overflow: hidden;
+              display: flex;
+              align-items: center;
+              justify-content: center; }
+        .caseNine-designer-list .list .aa .right .works {
+          width: 100%;
+          height: .28rem;
+          display: flex;
+          align-items: center;
+          font-size: .26rem;
+          overflow: hidden; }
+          .caseNine-designer-list .list .aa .right .works p {
+            width: .85rem;
+            letter-spacing: 2px; }
+          .caseNine-designer-list .list .aa .right .works span {
+            color: #afafaf;
+            overflow: hidden;
+            width: .52rem; }
+          .caseNine-designer-list .list .aa .right .works .number {
+            margin-right: .5rem; }
+          .caseNine-designer-list .list .aa .right .works .time {
+            margin-right: .5rem;
+            width: .62rem; }
+        .caseNine-designer-list .list .aa .right .works2 {
+          width: 100%;
+          height: .28rem;
+          display: flex;
+          align-items: center;
+          font-size: .26rem;
+          overflow: hidden; }
+          .caseNine-designer-list .list .aa .right .works2 span {
+            color: #afafaf;
+            overflow: hidden; }
+          .caseNine-designer-list .list .aa .right .works2 .style {
+            margin-left: .13rem;
+            letter-spacing: 1.5px; }
+        .caseNine-designer-list .list .aa .right .detail-info-bottom {
+          width: 5.3rem;
+          height: .8rem;
+          line-height: .45rem;
+          font-size: .26rem;
+          letter-spacing: 1px;
+          overflow: hidden;
+          color: #afafaf; }
+          .caseNine-designer-list .list .aa .right .detail-info-bottom span {
+            color: #000;
+            width: 1.65rem;
+            height: .28rem;
+            overflow: hidden; }
+
+.sy-bottom {
+  width: 100%;
+  height: 2.44rem;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding-top: .3rem;
+  padding-left: .18rem;
+  padding-right: .18rem;
+  padding-bottom: .36rem;
+  font-size: .28rem;
+  color: #333;
+  text-indent: 2em;
+  letter-spacing: 1.5px;
+  line-height: .45rem; }
+  .sy-bottom p {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+
+.sy-bottom-nav {
+  width: 100%;
+  height: 2.34rem;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding-top: .3rem;
+  padding-left: .53rem;
+  padding-right: .41rem;
+  position: relative;
+  border: 0; }
+  .sy-bottom-nav .top {
+    width: 100%;
+    height: .32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .sy-bottom-nav .top img {
+      width: .32rem;
+      height: .32rem; }
+    .sy-bottom-nav .top p {
+      font-size: .28rem;
+      color: #333;
+      margin-left: .13rem;
+      overflow: hidden; }
+  .sy-bottom-nav ul {
+    width: 100%;
+    height: .3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .22rem;
+    margin-bottom: .55rem; }
+    .sy-bottom-nav ul .one {
+      color: #37ca91; }
+    .sy-bottom-nav ul a {
+      display: block;
+      width: 1rem;
+      height: .3rem;
+      overflow: hidden;
+      font-size: .28rem; }
+  .sy-bottom-nav .footer {
+    width: 7.5rem;
+    margin-left: -0.53rem;
+    height: 1.05rem;
+    position: absolute;
+    bottom: 0;
+    background: #000;
+    opacity: .8;
+    box-sizing: border-box;
+    padding-right: .38rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden; }
+    .sy-bottom-nav .footer .wz {
+      width: 3.25rem;
+      height: .77rem;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between; }
+      .sy-bottom-nav .footer .wz .top {
+        width: 100%;
+        height: .32rem;
+        color: #eed215;
+        font-size: .32rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        overflow: hidden; }
+      .sy-bottom-nav .footer .wz .bottom {
+        width: 100%;
+        height: .32rem;
+        font-size: .32rem;
+        color: white;
+        overflow: hidden; }
+    .sy-bottom-nav .footer img {
+      width: .86rem;
+      height: .86rem; }
+    .sy-bottom-nav .footer ul {
+      width: .5rem;
+      height: 100%;
+      margin-right: .31rem;
+      position: relative; }
+      .sy-bottom-nav .footer ul li {
+        width: 1rem;
+        height: 1rem;
+        border-radius: .5rem;
+        background: #62d4a9;
+        position: absolute;
+        top: -0.3rem;
+        left: -0.47rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color: white;
+        box-sizing: border-box;
+        padding-right: .2rem;
+        padding-bottom: .2rem;
+        font-size: .23rem; }
+    .sy-bottom-nav .footer button {
+      width: 1.75rem;
+      height: .5rem;
+      background: #FEB605;
+      color: white;
+      border-radius: .5rem;
+      text-align: center;
+      line-height: .5rem;
+      overflow: hidden;
+      border: 0;
+      outline: none;
+      font-size: .24rem;
+      margin-left: .4rem; }
+
+.footer-img {
+  width: 100%;
+  height: .78rem;
+  position: relative;
+  border: 0; }
+  .footer-img img {
+    width: 100%;
+    height: .78rem;
+    position: absolute;
+    border: 0; }
+
+.top-back {
+  width: .94rem;
+  height: .94rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid gainsboro;
+  font-size: .28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: .21rem;
+  background: white;
+  z-index: 10000;
+  bottom: 2.5rem; }
+  .top-back .size {
+    width: .4rem;
+    height: .4rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; }
+    .top-back .size p {
+      width: .3rem;
+      height: 0;
+      border-bottom: 1px solid #000; }
+
+/*# sourceMappingURL=caseNine-designer.css.map */

@@ -1,0 +1,272 @@
+.decoration-header {
+  width: 100%;
+  height: 1.03rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: .16rem;
+  padding-right: .18rem;
+  position: relative; }
+  .decoration-header .logo {
+    width: 1.88rem;
+    height: .71rem;
+    position: relative;
+    display: flex;
+    align-items: center; }
+    .decoration-header .logo img {
+      width: .4rem;
+      height: .45rem;
+      position: absolute; }
+  .decoration-header .header-home {
+    width: 3.9rem;
+    height: .36rem;
+    font-size: .36rem;
+    overflow: hidden;
+    color: #000;
+    margin-right: .93rem; }
+  .decoration-header ul {
+    width: 1.22rem;
+    height: .72rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: .18rem; }
+    .decoration-header ul a {
+      display: block;
+      width: .44rem;
+      height: 100%; }
+      .decoration-header ul a li {
+        width: 100%;
+        height: .72rem;
+        color: #999;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between; }
+        .decoration-header ul a li p {
+          overflow: hidden;
+          width: 100%;
+          height: .22rem;
+          font-size: .22rem;
+          -webkit-text-size-adjust: none !important; }
+        .decoration-header ul a li img {
+          width: .42rem;
+          height: .42rem; }
+
+.caseSix-a-content {
+  width: 100%;
+  height: 9.8rem;
+  display: flex;
+  flex-flow: column; }
+  .caseSix-a-content .black {
+    width: 100%;
+    height: 1.04rem;
+    background: #202020; }
+  .caseSix-a-content .caseSix-a-content-img {
+    width: 100%;
+    height: 4.61rem; }
+    .caseSix-a-content .caseSix-a-content-img img {
+      width: 100%;
+      height: 4.61rem; }
+  .caseSix-a-content .caseSix-a-content-bottom {
+    flex-grow: 1;
+    height: 1%;
+    width: 100%;
+    background: #202020;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: .46rem;
+    padding-bottom: .67rem; }
+    .caseSix-a-content .caseSix-a-content-bottom .section {
+      width: 100%;
+      height: 1%;
+      flex-grow: 1;
+      color: white;
+      font-size: .32rem;
+      box-sizing: border-box;
+      overflow: auto;
+      letter-spacing: 1px;
+      line-height: .54rem;
+      padding-left: .2rem;
+      padding-right: .28rem; }
+    .caseSix-a-content .caseSix-a-content-bottom ul {
+      width: 100%;
+      font-size: .28rem;
+      color: #38CA94;
+      display: flex;
+      align-items: center;
+      height: .28rem;
+      justify-content: space-between;
+      margin-top: .3rem;
+      margin-bottom: .66rem; }
+      .caseSix-a-content .caseSix-a-content-bottom ul .first-span {
+        margin-left: -.5rem; }
+      .caseSix-a-content .caseSix-a-content-bottom ul .last-span {
+        margin-right: -.5rem; }
+    .caseSix-a-content .caseSix-a-content-bottom .first {
+      display: block;
+      width: .45rem;
+      height: .45rem;
+      margin-left: -.25rem; }
+    .caseSix-a-content .caseSix-a-content-bottom .last {
+      display: block;
+      width: .45rem;
+      height: .45rem;
+      margin-right: -.3rem; }
+    .caseSix-a-content .caseSix-a-content-bottom .circle {
+      height: .45rem;
+      width: 100%;
+      display: flex;
+      align-items: center; }
+      .caseSix-a-content .caseSix-a-content-bottom .circle .first-circle {
+        width: .45rem;
+        height: .45rem;
+        border-radius: 50%;
+        border: 1px solid #38CA94; }
+      .caseSix-a-content .caseSix-a-content-bottom .circle .first-line {
+        width: 1.03rem;
+        height: 0;
+        border: 1px solid #38CA94; }
+      .caseSix-a-content .caseSix-a-content-bottom .circle .third-circle {
+        width: .45rem;
+        height: .45rem;
+        border-radius: 50%;
+        border: 1px solid #38CA94;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .caseSix-a-content .caseSix-a-content-bottom .circle .third-circle .mini-circle {
+          width: .25rem;
+          height: .25rem;
+          border-radius: 50%;
+          background: #38CA94; }
+
+.sy-bottom {
+  width: 100%;
+  height: 2.44rem;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding-top: .3rem;
+  padding-left: .18rem;
+  padding-right: .18rem;
+  padding-bottom: .36rem;
+  font-size: .28rem;
+  color: #333;
+  text-indent: 2em;
+  letter-spacing: 1.5px;
+  line-height: .45rem; }
+  .sy-bottom p {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+
+.sy-bottom-nav {
+  width: 100%;
+  height: 2.34rem;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding-top: .3rem;
+  padding-left: .53rem;
+  padding-right: .41rem;
+  position: relative;
+  border: 0; }
+  .sy-bottom-nav .top {
+    width: 100%;
+    height: .32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .sy-bottom-nav .top img {
+      width: .32rem;
+      height: .32rem; }
+    .sy-bottom-nav .top p {
+      font-size: .28rem;
+      color: #333;
+      margin-left: .13rem;
+      overflow: hidden; }
+  .sy-bottom-nav ul {
+    width: 100%;
+    height: .3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .22rem;
+    margin-bottom: .55rem; }
+    .sy-bottom-nav ul .one {
+      color: #37ca91; }
+    .sy-bottom-nav ul a {
+      display: block;
+      width: 1rem;
+      height: .3rem;
+      overflow: hidden;
+      font-size: .28rem; }
+  .sy-bottom-nav .footer {
+    width: 7.5rem;
+    margin-left: -0.53rem;
+    height: 1.05rem;
+    position: absolute;
+    bottom: 0;
+    background: #fe6a73;
+    opacity: .8;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center; }
+    .sy-bottom-nav .footer .pen {
+      width: .5rem;
+      height: .56rem;
+      margin-right: .36rem;
+      position: relative; }
+      .sy-bottom-nav .footer .pen img {
+        width: .5rem;
+        height: .56rem;
+        position: absolute; }
+    .sy-bottom-nav .footer .footer-free {
+      color: white;
+      font-size: .36rem;
+      overflow: hidden;
+      white-space: nowrap;
+      height: .4rem; }
+
+.footer-img {
+  width: 100%;
+  height: .78rem;
+  position: relative;
+  border: 0; }
+  .footer-img img {
+    width: 100%;
+    height: .78rem;
+    position: absolute;
+    border: 0; }
+
+.top-back {
+  width: .94rem;
+  height: .94rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid gainsboro;
+  font-size: .28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: .21rem;
+  background: white;
+  z-index: 10000;
+  bottom: 2.5rem; }
+  .top-back .size {
+    width: .4rem;
+    height: .4rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; }
+    .top-back .size p {
+      width: .3rem;
+      height: 0;
+      border-bottom: 1px solid #000; }
+
+/*# sourceMappingURL=caseSix-a.css.map */
